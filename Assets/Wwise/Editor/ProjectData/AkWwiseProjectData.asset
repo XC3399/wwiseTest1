@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: f773a244d6845c4ba7d86b9db40655d9
     GuidInternal: 
-    m_lastTime: -8585029499707683492
+    m_lastTime: -8585030118170947740
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: f03610a502c0594885a44342de5cfcae
     GuidInternal: 
-    m_lastTime: -8585029499707733337
+    m_lastTime: -8585030118171597852
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 2878a07490b40a4496d785d59dd3209e
     GuidInternal: 
-    m_lastTime: -8585029499707703490
+    m_lastTime: -8585030118170262619
     List: []
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
@@ -80,7 +80,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ceb191a27756884e81a6710180765a8f
     GuidInternal: 
-    m_lastTime: -8585029499707743381
+    m_lastTime: -8585030118172087936
     List: []
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
@@ -94,8 +94,50 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: fd62c0b93b263e47bd3d14948d681154
     GuidInternal: 
-    m_lastTime: -8585029499707743381
-    List: []
+    m_lastTime: -8585027682104068124
+    List:
+    - name: musicProgression
+      guid: 244d481d2482374bbdbab4cd7e9a1749
+      id: 182810823
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fd62c0b93b263e47bd3d14948d681154
+      - ElementName: musicProgression
+        ObjectType: 13
+        guid: 244d481d2482374bbdbab4cd7e9a1749
+      Path: Game Parameters\Default Work Unit\musicProgression
+    - name: RTPC_Occlusion_LoPass
+      guid: c67512dd97b52f4b86ddbc6b4c0c6b48
+      id: 222722569
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fd62c0b93b263e47bd3d14948d681154
+      - ElementName: RTPC_Occlusion_LoPass
+        ObjectType: 13
+        guid: c67512dd97b52f4b86ddbc6b4c0c6b48
+      Path: Game Parameters\Default Work Unit\RTPC_Occlusion_LoPass
+    - name: RTPC_Occlusion_Volume
+      guid: da86964ff62234458c2ac09765aa0fe5
+      id: 342905355
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fd62c0b93b263e47bd3d14948d681154
+      - ElementName: RTPC_Occlusion_Volume
+        ObjectType: 13
+        guid: da86964ff62234458c2ac09765aa0fe5
+      Path: Game Parameters\Default Work Unit\RTPC_Occlusion_Volume
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -108,7 +150,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 66ec6b3ec9369544954ca42eb05337f6
     GuidInternal: 
-    m_lastTime: -8585029499707693508
+    m_lastTime: -8585030118171792885
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -122,7 +164,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 9c5402db8a93d840975b459156b9fe96
     GuidInternal: 
-    m_lastTime: -8585029499707693508
+    m_lastTime: -8585030118171702871
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -136,7 +178,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: e7b24975aab8ed478a4b91f2c2b42e2e
     GuidInternal: 
-    m_lastTime: -8585029499707683492
+    m_lastTime: -8585030118171402815
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 

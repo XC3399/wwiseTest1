@@ -1,6 +1,671 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{6E8B8B87-3EA9-45C6-92A4-E80B56BB2D0D}" SchemaVersion="110">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{6E8B8B87-3EA9-45C6-92A4-E80B56BB2D0D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{6E8B8B87-3EA9-45C6-92A4-E80B56BB2D0D}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="musicPlaylist" ID="{AEF87291-8B13-430E-84E9-3A77D9453CE3}" ShortID="886978795">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA38E2D6-A414-452B-90F9-97989162730F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A51036F0-C002-4859-85A4-4342DE5CFCAE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="music" ID="{9F118778-4040-44D3-9F0F-05FCF30FA4CA}" ShortID="307011165">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="33255.7614806214"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA38E2D6-A414-452B-90F9-97989162730F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A51036F0-C002-4859-85A4-4342DE5CFCAE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="lost keys cello 1" ID="{0859BD74-F36B-4F40-B5AA-A5F040DC5F0D}" ShortID="404614998">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A51036F0-C002-4859-85A4-4342DE5CFCAE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="lost keys cello 1" ID="{874520FF-33AD-4216-BDD2-1277B2FD7B89}">
+											<Language>SFX</Language>
+											<AudioFile>lost keys cello 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="561302768"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{9791B52C-DA63-42A2-B3B4-741DBB3C74E4}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{BFEEF278-BCC6-48F5-AA68-6C8768D6A562}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="lost keys cello 1" ID="{0F6B2DEF-63BF-4CDF-874B-BD9D24871A35}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="32000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="lost keys cello 1" ID="{874520FF-33AD-4216-BDD2-1277B2FD7B89}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="lost keys main click 1" ID="{E3153693-6C29-477D-B4A8-44EFCD72E6D3}" ShortID="193959295">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A51036F0-C002-4859-85A4-4342DE5CFCAE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="lost keys main click 1" ID="{D4D04ACC-4E3D-4D68-82E3-41731F01E8CE}">
+											<Language>SFX</Language>
+											<AudioFile>lost keys main click 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="770376747"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{3E8E6C8F-AB2E-4367-B09E-360B32DE7071}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{0DE4A636-BF3A-4C89-A1EE-FD50D1BD53AD}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="lost keys main click 1" ID="{61F135C0-11E2-4731-BA97-7D37BEC8A727}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="32000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="lost keys main click 1" ID="{D4D04ACC-4E3D-4D68-82E3-41731F01E8CE}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="lost keys main growl 1" ID="{F541AE0C-B3A2-419E-B753-43043553B2D6}" ShortID="728277760">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A51036F0-C002-4859-85A4-4342DE5CFCAE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="lost keys main growl 1" ID="{55C449FF-4F75-43D1-BD11-4480C11825FA}">
+											<Language>SFX</Language>
+											<AudioFile>lost keys main growl 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="97110580"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{9D308FEA-3454-4302-82DD-827E7D8B9304}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{A0422FB9-E806-496A-8A0E-6B2830F46B60}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="lost keys main growl 1" ID="{97D19092-7D48-4785-9456-2424F445122E}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="32000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="lost keys main growl 1" ID="{55C449FF-4F75-43D1-BD11-4480C11825FA}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="lost keys piano 1" ID="{3590B94F-BAF1-4F03-B34E-EBD91F926F2A}" ShortID="421969863">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A51036F0-C002-4859-85A4-4342DE5CFCAE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="lost keys piano 1" ID="{3F282A83-AD1C-4B4A-95DF-DF6DFC64AEFC}">
+											<Language>SFX</Language>
+											<AudioFile>lost keys piano 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="696629043"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{AE95973B-2A57-4865-87DE-AD39AB3D8231}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{0E3A2822-607E-44D6-B07B-011BDC9B8378}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="lost keys piano 1" ID="{3DECF132-7E98-4753-BEAF-F307A0B86942}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="32000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="lost keys piano 1" ID="{3F282A83-AD1C-4B4A-95DF-DF6DFC64AEFC}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="lost keys piano 2" ID="{DE3843D3-6894-4EB0-981B-CB9C14972C71}" ShortID="338934937">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A51036F0-C002-4859-85A4-4342DE5CFCAE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="lost keys piano 2" ID="{A42E722C-0EC7-45AC-86E6-3C7E27BF0937}">
+											<Language>SFX</Language>
+											<AudioFile>lost keys piano 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="815585805"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{874E8D79-D136-4A0C-87C3-3A8AF4F0E605}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{F323E3A4-1A5B-46B5-9C53-A80DE2E28649}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="lost keys piano 2" ID="{15D5DAB6-162D-425D-A124-0724B89EE427}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="32000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="lost keys piano 2" ID="{A42E722C-0EC7-45AC-86E6-3C7E27BF0937}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="lost keys piano 3" ID="{09921C2A-B364-4978-8339-4EECCF943C92}" ShortID="649450947">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A51036F0-C002-4859-85A4-4342DE5CFCAE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="lost keys piano 3" ID="{C6C510F2-8184-484B-B606-F350178707D6}">
+											<Language>SFX</Language>
+											<AudioFile>lost keys piano 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="215904563"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{05ACEFD4-9664-4230-94A3-0317536DF5BF}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{FED50566-41C4-4C6C-8642-E78709E29508}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="lost keys piano 3" ID="{2FB011C1-4456-4B40-8CFB-0E38A60102F1}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="32000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="lost keys piano 3" ID="{C6C510F2-8184-484B-B606-F350178707D6}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="lost keys piano 4" ID="{823C4880-9F57-4AA1-86D2-2AE44592770C}" ShortID="970496253">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A51036F0-C002-4859-85A4-4342DE5CFCAE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="lost keys piano 4" ID="{8E4FF4BA-6586-4109-B5E2-7EC657DD75F9}">
+											<Language>SFX</Language>
+											<AudioFile>lost keys piano 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="280435366"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{1B60147A-1899-4AE0-B418-D8A372F0CE12}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{9E5D748A-22F7-46A7-A86C-751BBD2559B2}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="lost keys piano 4" ID="{B55EA51F-64CE-41A3-BC65-67436A59B460}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="32000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="lost keys piano 4" ID="{8E4FF4BA-6586-4109-B5E2-7EC657DD75F9}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="lost keys pizz 1" ID="{2B9D9E47-2E10-40DC-9EDB-C918FB51FB70}" ShortID="289915475">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A51036F0-C002-4859-85A4-4342DE5CFCAE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="lost keys pizz 1" ID="{BB316EC1-B758-4512-B144-7D650DC12AB4}">
+											<Language>SFX</Language>
+											<AudioFile>lost keys pizz 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="579773374"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{DF6C795A-3AF6-43F5-8C67-B1937E9FBDDD}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{E460C68F-2765-47F8-8BC6-4074723B16CA}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="lost keys pizz 1" ID="{E17B4CB8-CDCF-4A65-8E80-2DFA35AF5646}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="32000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="lost keys pizz 1" ID="{BB316EC1-B758-4512-B144-7D650DC12AB4}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="lost keys violin 1" ID="{A123DB9C-E47C-40C3-A29C-8C70D2B94A26}" ShortID="14467273">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A51036F0-C002-4859-85A4-4342DE5CFCAE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="lost keys violin 1" ID="{AFE3A1BD-0AAC-4727-B780-FAA30723D7D0}">
+											<Language>SFX</Language>
+											<AudioFile>lost keys violin 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="704350912"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{B46270A3-4B42-42DD-9AA4-73BD5C01E798}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{0FCA2768-1460-4C04-9744-A8F8919A5893}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="lost keys violin 1" ID="{2F38B786-79B7-4ADF-ABFE-B9967896BFF6}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="32000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="lost keys violin 1" ID="{AFE3A1BD-0AAC-4727-B780-FAA30723D7D0}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="lost keys violin 2" ID="{CA095168-F46C-4239-ADEC-AC383B136F5F}" ShortID="120467904">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A51036F0-C002-4859-85A4-4342DE5CFCAE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="lost keys violin 2" ID="{93F1CA80-F77C-4990-B6B2-A1B6ADCC00A5}">
+											<Language>SFX</Language>
+											<AudioFile>lost keys violin 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1007620677"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{72FC6091-FC6F-4EAC-BFC3-30FCD798DD33}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{CD288C6D-D093-4A07-A9E5-5BBBCCF9CBB4}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="lost keys violin 2" ID="{E8214F70-1368-4E9A-A12B-9D1BCB6C5272}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="32000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="lost keys violin 2" ID="{93F1CA80-F77C-4990-B6B2-A1B6ADCC00A5}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="lost keys violin 3" ID="{D0E44EE1-1CC0-4283-B6DA-4BE96A491A65}" ShortID="741680484">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A51036F0-C002-4859-85A4-4342DE5CFCAE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="lost keys violin 3" ID="{AD0E33AD-0FDE-4B0B-A6E3-8500DC6FF737}">
+											<Language>SFX</Language>
+											<AudioFile>lost keys violin 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="276412830"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{10FAF187-63CC-4571-9EFF-CC3EA10FEAD5}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{6A1DE074-8861-4070-AA5C-5637483AFC13}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="lost keys violin 3" ID="{E692BE13-0B7F-4A87-8F78-9FFCDE70886B}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="32000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="lost keys violin 3" ID="{AD0E33AD-0FDE-4B0B-A6E3-8500DC6FF737}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{804FBE08-A776-4108-8F53-575D9BC37B9C}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{D0037AEA-830D-48A7-8188-AD09C9FDA327}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="32010.1963662145"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{1952EB77-63A0-48A3-8577-3CB88955EF8B}" ShortID="362268713">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="musicProgression" ID="{1D484D24-8224-4B37-BDBA-B4CD7E9A1749}" WorkUnitID="{B9C062FD-263B-473E-BD3D-14948D681154}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{8338F0E8-E847-4C55-9AD3-6627515CE0E4}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{5096B8C6-3363-411D-A172-6A45B78603FA}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{187ACC25-DE14-4C9D-8725-1CF553F60F2B}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{28692249-7BE7-4832-85D5-F7865D98993A}" ShortID="126771965">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{1DF23362-78EE-466B-B4A5-567342D3B353}" ShortID="265261025">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="music" ID="{9F118778-4040-44D3-9F0F-05FCF30FA4CA}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>

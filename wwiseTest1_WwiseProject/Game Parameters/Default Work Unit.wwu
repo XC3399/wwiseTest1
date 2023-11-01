@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B9C062FD-263B-473E-BD3D-14948D681154}" SchemaVersion="110">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{B9C062FD-263B-473E-BD3D-14948D681154}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B9C062FD-263B-473E-BD3D-14948D681154}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_Occlusion_LoPass" ID="{DD1275C6-B597-4B2F-86DD-BC6B4C0C6B48}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0.4"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="0.4"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Occlusion_Volume" ID="{4F9686DA-22F6-4534-8C2A-C09765AA0FE5}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0.4"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="0.4"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="musicProgression" ID="{1D484D24-8224-4B37-BDBA-B4CD7E9A1749}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>
