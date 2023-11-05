@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	626769978	backgroundMusic			\Default Work Unit\backgroundMusic	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	182810823	musicProgression			\Default Work Unit\musicProgression	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	97110580	lost keys main growl 1	C:\Users\xixic\Desktop\Unity Projects\wwiseTest1\wwiseTest1_WwiseProject\.cache\Windows\SFX\lost keys main growl 1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\musicPlaylist\music\lost keys main growl 1		5644896
+	215904563	lost keys piano 3	C:\Users\xixic\Desktop\Unity Projects\wwiseTest1\wwiseTest1_WwiseProject\.cache\Windows\SFX\lost keys piano 3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\musicPlaylist\music\lost keys piano 3		5644896
+	276412830	lost keys violin 3	C:\Users\xixic\Desktop\Unity Projects\wwiseTest1\wwiseTest1_WwiseProject\.cache\Windows\SFX\lost keys violin 3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\musicPlaylist\music\lost keys violin 3		5644896
+	280435366	lost keys piano 4	C:\Users\xixic\Desktop\Unity Projects\wwiseTest1\wwiseTest1_WwiseProject\.cache\Windows\SFX\lost keys piano 4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\musicPlaylist\music\lost keys piano 4		5644896
+	561302768	lost keys cello 1	C:\Users\xixic\Desktop\Unity Projects\wwiseTest1\wwiseTest1_WwiseProject\.cache\Windows\SFX\lost keys cello 1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\musicPlaylist\music\lost keys cello 1		5644896
+	579773374	lost keys pizz 1	C:\Users\xixic\Desktop\Unity Projects\wwiseTest1\wwiseTest1_WwiseProject\.cache\Windows\SFX\lost keys pizz 1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\musicPlaylist\music\lost keys pizz 1		5644896
+	696629043	lost keys piano 1	C:\Users\xixic\Desktop\Unity Projects\wwiseTest1\wwiseTest1_WwiseProject\.cache\Windows\SFX\lost keys piano 1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\musicPlaylist\music\lost keys piano 1		5644896
+	704350912	lost keys violin 1	C:\Users\xixic\Desktop\Unity Projects\wwiseTest1\wwiseTest1_WwiseProject\.cache\Windows\SFX\lost keys violin 1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\musicPlaylist\music\lost keys violin 1		5644896
+	770376747	lost keys main click 1	C:\Users\xixic\Desktop\Unity Projects\wwiseTest1\wwiseTest1_WwiseProject\.cache\Windows\SFX\lost keys main click 1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\musicPlaylist\music\lost keys main click 1		5644896
+	815585805	lost keys piano 2	C:\Users\xixic\Desktop\Unity Projects\wwiseTest1\wwiseTest1_WwiseProject\.cache\Windows\SFX\lost keys piano 2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\musicPlaylist\music\lost keys piano 2		5644896
+	1007620677	lost keys violin 2	C:\Users\xixic\Desktop\Unity Projects\wwiseTest1\wwiseTest1_WwiseProject\.cache\Windows\SFX\lost keys violin 2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\musicPlaylist\music\lost keys violin 2		5644896
+

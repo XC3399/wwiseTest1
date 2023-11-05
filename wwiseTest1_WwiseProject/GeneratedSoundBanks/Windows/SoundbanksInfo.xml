@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{11784857-D3BD-0DB4-303C-44523E4B29C5}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="182810823" Name="musicProgression"/>
+				<GameParameter Id="222722569" Name="RTPC_Occlusion_LoPass"/>
+				<GameParameter Id="342905355" Name="RTPC_Occlusion_Volume"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{ACD6030E-0959-ABAD-E039-746E846AE383}">
+			<ShortName>main</ShortName>
+			<Path>main.bnk</Path>
+			<Media>
+				<File Id="97110580" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lost keys main growl 1.wav</ShortName>
+					<CachePath>SFX/lost keys main growl 1_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="215904563" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lost keys piano 3.wav</ShortName>
+					<CachePath>SFX/lost keys piano 3_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="276412830" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lost keys violin 3.wav</ShortName>
+					<CachePath>SFX/lost keys violin 3_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="280435366" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lost keys piano 4.wav</ShortName>
+					<CachePath>SFX/lost keys piano 4_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="561302768" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lost keys cello 1.wav</ShortName>
+					<CachePath>SFX/lost keys cello 1_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="579773374" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lost keys pizz 1.wav</ShortName>
+					<CachePath>SFX/lost keys pizz 1_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="696629043" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lost keys piano 1.wav</ShortName>
+					<CachePath>SFX/lost keys piano 1_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="704350912" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lost keys violin 1.wav</ShortName>
+					<CachePath>SFX/lost keys violin 1_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="770376747" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lost keys main click 1.wav</ShortName>
+					<CachePath>SFX/lost keys main click 1_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="815585805" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lost keys piano 2.wav</ShortName>
+					<CachePath>SFX/lost keys piano 2_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1007620677" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lost keys violin 2.wav</ShortName>
+					<CachePath>SFX/lost keys violin 2_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="626769978" Name="backgroundMusic" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="97110580"/>
+						<MediaRef Id="215904563"/>
+						<MediaRef Id="276412830"/>
+						<MediaRef Id="280435366"/>
+						<MediaRef Id="561302768"/>
+						<MediaRef Id="579773374"/>
+						<MediaRef Id="696629043"/>
+						<MediaRef Id="704350912"/>
+						<MediaRef Id="770376747"/>
+						<MediaRef Id="815585805"/>
+						<MediaRef Id="1007620677"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="182810823" Name="musicProgression"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{90ECB068-8612-2E3D-6B23-29FEB77AE5A0}</FileHash>
+</SoundBanksInfo>

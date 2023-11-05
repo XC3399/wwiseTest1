@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{6E8B8B87-3EA9-45C6-92A4-E80B56BB2D0D}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicPlaylistContainer Name="musicPlaylist" ID="{AEF87291-8B13-430E-84E9-3A77D9453CE3}" ShortID="886978795">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA38E2D6-A414-452B-90F9-97989162730F}"/>
@@ -74,13 +77,13 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>39.999</XPos>
+																				<XPos>36.87888</XPos>
 																				<YPos>-200</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>40</XPos>
-																				<YPos>-0</YPos>
+																				<YPos>-4.246</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
@@ -171,18 +174,18 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>79.999</XPos>
+																				<XPos>70.33743</XPos>
 																				<YPos>-200</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>80</XPos>
-																				<YPos>0</YPos>
+																				<YPos>1.18013</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>100</XPos>
-																				<YPos>0</YPos>
+																				<YPos>1.18013</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -268,18 +271,18 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>79.999</XPos>
+																				<XPos>70.56062</XPos>
 																				<YPos>-200</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>80</XPos>
-																				<YPos>0</YPos>
+																				<YPos>-0.79167</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>100</XPos>
-																				<YPos>0</YPos>
+																				<YPos>-0.79167</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -468,12 +471,12 @@
 																			</Point>
 																			<Point>
 																				<XPos>20</XPos>
-																				<YPos>-0</YPos>
+																				<YPos>1.08</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>40.18768</XPos>
-																				<YPos>0</YPos>
+																				<YPos>1.08</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
@@ -575,12 +578,12 @@
 																			</Point>
 																			<Point>
 																				<XPos>40.06628</XPos>
-																				<YPos>-0</YPos>
+																				<YPos>0.839</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>80</XPos>
-																				<YPos>0</YPos>
+																				<YPos>0.839</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
@@ -682,12 +685,12 @@
 																			</Point>
 																			<Point>
 																				<XPos>80.001</XPos>
-																				<YPos>0</YPos>
+																				<YPos>1.18013</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>100</XPos>
-																				<YPos>0</YPos>
+																				<YPos>1.18013</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -866,12 +869,12 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>0</YPos>
+																				<YPos>-0.51968</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>39.999</XPos>
-																				<YPos>0</YPos>
+																				<YPos>-0.51968</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
@@ -967,18 +970,18 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>39.999</XPos>
+																				<XPos>37.89292</XPos>
 																				<YPos>-200</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>40</XPos>
-																				<YPos>0</YPos>
+																				<YPos>-0.65461</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>100</XPos>
-																				<YPos>0</YPos>
+																				<YPos>-0.65461</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -1064,18 +1067,18 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>59.999</XPos>
+																				<XPos>50.56062</XPos>
 																				<YPos>-200</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>60</XPos>
-																				<YPos>0</YPos>
+																				<YPos>-0.7572</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>100</XPos>
-																				<YPos>0</YPos>
+																				<YPos>-0.7572</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
