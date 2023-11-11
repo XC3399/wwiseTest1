@@ -3,6 +3,8 @@ Event	ID	Name			Wwise Object Path	Notes
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	182810823	musicProgression			\Default Work Unit\musicProgression	
+	222722569	RTPC_Occlusion_LoPass			\Default Work Unit\RTPC_Occlusion_LoPass	
+	342905355	RTPC_Occlusion_Volume			\Default Work Unit\RTPC_Occlusion_Volume	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	97110580	lost keys main growl 1	C:\Users\xixic\Desktop\Unity Projects\wwiseTest1\wwiseTest1_WwiseProject\.cache\Windows\SFX\lost keys main growl 1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\musicPlaylist\music\lost keys main growl 1		5644896

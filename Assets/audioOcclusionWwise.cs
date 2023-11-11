@@ -7,11 +7,13 @@ public class audioOcclusionWwise : MonoBehaviour
     // the audio listener on the camera
     public GameObject audioListener;
 
+    public GameObject occlusionCollider;
+
     // how long the ray should be
     private float maxDistanceOcclusion;
 
     // whether to use occlusion if the noise should not be occluded outside of a range
-    public bool useOcclusion = false;
+    public bool useOcclusion = true;
 
     public string RTPC_LoPass = "RTPC_Occlusion_LoPass";
     public string RTPC_Volume = "RTPC_Occlusion_Volume";
@@ -19,9 +21,9 @@ public class audioOcclusionWwise : MonoBehaviour
     public float loPassMax = 1;
     public float volumeMax = 1;
 
-    public bool useDebug = false;
+    public bool useDebug = true;
 
-    public string nameOfListener = "3rdPersonCamera";
+    public string nameOfListener = "raycastAim";
 
     // incase the ray is hitting itsself or some objects need to be exempt from occlusion
     public string ignoreTypeOccluder = "insert name";
@@ -32,7 +34,8 @@ public class audioOcclusionWwise : MonoBehaviour
     void Start()
     {
         //set the raycast distance to sphere collider
-        maxDistanceOcclusion = GetComponent<SphereCollider>().radius;
+        //maxDistanceOcclusion = GetComponent<SphereCollider>().radius;
+        maxDistanceOcclusion = occlusionCollider.GetComponent<SphereCollider>().radius;
         AkSoundEngine.RegisterGameObj(gameObject);
     }
 
@@ -55,7 +58,11 @@ public class audioOcclusionWwise : MonoBehaviour
 
         //debug
         if (hit)
-            if (useDebug) { print(outInfo.collider.gameObject.name); }
+            if (useDebug)
+            { 
+            }
+        print(outInfo.collider.gameObject.name);
+        Debug.DrawRay(this.transform.position, direction, Color.red, maxDistanceOcclusion);
 
         if (outInfo.collider.gameObject.name != nameOfListener && outInfo.collider.gameObject.name != ignoreTypeOccluder) 
         {

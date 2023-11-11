@@ -27,7 +27,7 @@
 				<GameParameter Id="342905355" Name="RTPC_Occlusion_Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{ACD6030E-0959-ABAD-E039-746E846AE383}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{59E4ABED-7FAC-3623-5F44-C5110F3EA820}">
 			<ShortName>main</ShortName>
 			<Path>main.bnk</Path>
 			<Media>
@@ -95,8 +95,10 @@
 			</Events>
 			<GameParameters>
 				<GameParameter Id="182810823" Name="musicProgression"/>
+				<GameParameter Id="222722569" Name="RTPC_Occlusion_LoPass"/>
+				<GameParameter Id="342905355" Name="RTPC_Occlusion_Volume"/>
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FAAB4ACE-7124-0D48-45C0-FBDD0E4FB54E}</FileHash>
+	<FileHash>{D073E7DA-210D-4CA2-B790-0D4994CE4A08}</FileHash>
 </SoundBanksInfo>
