@@ -110,7 +110,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 0601b3745cd34a46a1513336b2777c28
       Path: Events\Default Work Unit\backgroundMusic
-      maxAttenuation: 0
+      maxAttenuation: 15
       maxDuration: -1
       minDuration: -1
   RtpcWwu:
@@ -125,7 +125,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: fd62c0b93b263e47bd3d14948d681154
     GuidInternal: 
-    m_lastTime: -8585020812386721834
+    m_lastTime: -8585018893202943397
     List:
     - name: musicProgression
       guid: 244d481d2482374bbdbab4cd7e9a1749

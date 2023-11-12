@@ -8,8 +8,8 @@
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="Max" Type="Real64" Value="1"/>
 						<Property Name="RTPCRamping" Type="int16" Value="1"/>
-						<Property Name="SlewRateDown" Type="Real64" Value="0.4"/>
-						<Property Name="SlewRateUp" Type="Real64" Value="0.4"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="1"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="1"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="RTPC_Occlusion_Volume" ID="{4F9686DA-22F6-4534-8C2A-C09765AA0FE5}">
@@ -17,8 +17,8 @@
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="Max" Type="Real64" Value="1"/>
 						<Property Name="RTPCRamping" Type="int16" Value="1"/>
-						<Property Name="SlewRateDown" Type="Real64" Value="0.4"/>
-						<Property Name="SlewRateUp" Type="Real64" Value="0.4"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="1"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="1"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="musicProgression" ID="{1D484D24-8224-4B37-BDBA-B4CD7E9A1749}">

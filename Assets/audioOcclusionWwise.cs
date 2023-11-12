@@ -42,8 +42,11 @@ public class audioOcclusionWwise : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
         //do not occlude if out of occlusion range DEVIATION  
-        
+
+
 
         //do nothing if audio not defined or useOcclusion is false
         if (!useOcclusion || audioListener == null) { return; }
@@ -63,6 +66,7 @@ public class audioOcclusionWwise : MonoBehaviour
             }
         print(outInfo.collider.gameObject.name);
         Debug.DrawRay(this.transform.position, direction, Color.red, maxDistanceOcclusion);
+
 
         if (outInfo.collider.gameObject.name != nameOfListener && outInfo.collider.gameObject.name != ignoreTypeOccluder) 
         {

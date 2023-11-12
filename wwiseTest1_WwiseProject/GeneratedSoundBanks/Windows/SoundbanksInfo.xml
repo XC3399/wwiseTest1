@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{22547E55-E91C-22CD-7B49-E3DA2B1A20F7}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{BA404441-C237-6921-5B37-1C25BDE055EE}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -27,7 +27,7 @@
 				<GameParameter Id="342905355" Name="RTPC_Occlusion_Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{59E4ABED-7FAC-3623-5F44-C5110F3EA820}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6174EE16-33B6-81CB-21F5-784C6636D887}">
 			<ShortName>main</ShortName>
 			<Path>main.bnk</Path>
 			<Media>
@@ -77,7 +77,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="626769978" Name="backgroundMusic" DurationType="Infinite">
+				<Event Id="626769978" Name="backgroundMusic" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="97110580"/>
 						<MediaRef Id="215904563"/>
@@ -100,5 +100,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D073E7DA-210D-4CA2-B790-0D4994CE4A08}</FileHash>
+	<FileHash>{03B4895F-DF48-C774-BACA-79EE06161A69}</FileHash>
 </SoundBanksInfo>
