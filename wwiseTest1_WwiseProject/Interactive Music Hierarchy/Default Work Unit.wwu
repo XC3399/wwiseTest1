@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<MusicPlaylistContainer Name="musicPlaylist" ID="{AEF87291-8B13-430E-84E9-3A77D9453CE3}" ShortID="886978795">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
