@@ -27,7 +27,7 @@
 				<GameParameter Id="342905355" Name="RTPC_Occlusion_Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{2B1B19C4-4CCD-79E4-1D51-22C559DBA00E}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6174EE16-33B6-81CB-21F5-784C6636D887}">
 			<ShortName>main</ShortName>
 			<Path>main.bnk</Path>
 			<Media>
@@ -77,7 +77,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="626769978" Name="backgroundMusic" DurationType="Infinite">
+				<Event Id="626769978" Name="backgroundMusic" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="97110580"/>
 						<MediaRef Id="215904563"/>
@@ -100,5 +100,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{11620AFA-D85E-8BDD-1C0A-5A2EA0D16046}</FileHash>
+	<FileHash>{03B4895F-DF48-C774-BACA-79EE06161A69}</FileHash>
 </SoundBanksInfo>
